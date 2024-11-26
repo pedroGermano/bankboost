@@ -2,6 +2,9 @@ header {
   width: 100%;
   border-bottom: 1px solid rgba(255, 255, 255, 0.16);
   padding: 2.4rem 0;
+  position: absolute;
+  top: 0;
+  left: 0;
   .container {
     display: flex;
     align-items: center;
@@ -34,6 +37,13 @@ header {
       color: var(--GRAY-100);
       font-size: 1.6rem;
       font-weight: 600;
+      transition: background 0.3s ease;
+      &:hover {
+        background: var(--YELLOW);
+        border: none;
+        color: var(--BROWN);
+        border: 1.5px solid var(--YELLOW);
+      }
     }
   }
 }
