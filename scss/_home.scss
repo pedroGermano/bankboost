@@ -105,11 +105,47 @@
     .mockup {
       width: 100%;
       height: 56.5rem;
+      margin-bottom: 13.5rem;
       img {
         max-width: initial;
         position: relative;
         top: -3.9rem;
         left: -4.9rem;
+      }
+    }
+    .description {
+      position: relative;
+      text-align: center;
+      &::before {
+        content: "";
+        background: url(../img/dots.svg) no-repeat center center;
+        position: absolute;
+        top: -11.1rem;
+        width: 0.5rem;
+        height: 8.3rem;
+      }
+      .icon {
+        margin: 0 auto;
+      }
+      h3 {
+        color: var(--GRAY-800);
+        text-align: center;
+        font-size: 2.4rem;
+        font-weight: 600;
+        line-height: 150%;
+        letter-spacing: -0.5px;
+        margin-top: 2.5rem;
+      }
+      p {
+        color: var(--GRAY-600);
+        font-size: 1.6rem;
+        line-height: 2.5rem;
+        margin: 0.8rem 0 2.4rem;
+      }
+      ul {
+        display: flex;
+        flex-direction: column;
+        gap: 1.6rem;
       }
     }
   }
