@@ -293,9 +293,13 @@
     }
     .swiper-pagination {
       position: relative;
-      width: 100%;
+      width: auto;
       bottom: 0;
-      max-width: 6rem;
+      max-width: 6.6rem;
+      &-bullet {
+        background-color: #f0ecfb;
+        opacity: 1;
+      }
     }
   }
   .slide-depositions {
