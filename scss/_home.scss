@@ -267,3 +267,27 @@
     }
   }
 }
+
+.s-depositions {
+  padding: 6.7rem 0 84.5rem;
+  .title {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    h2 {
+      color: rgba(155, 155, 166, 0.8);
+      font-size: 4rem;
+      font-weight: 600;
+      line-height: 112%;
+      letter-spacing: -1px;
+      strong {
+        display: block;
+        color: var(--GRAY-800);
+        font-size: 4rem;
+        font-weight: 700;
+        line-height: 112%;
+        letter-spacing: -1px;
+      }
+    }
+  }
+}
