@@ -269,11 +269,13 @@
 }
 
 .s-depositions {
-  padding: 6.7rem 0 84.5rem;
+  padding-top: 6.7rem;
+  padding-bottom: 84.5rem;
   .title {
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
+    margin-bottom: 4.6rem;
     h2 {
       color: rgba(155, 155, 166, 0.8);
       font-size: 4rem;
@@ -288,6 +290,41 @@
         line-height: 112%;
         letter-spacing: -1px;
       }
+    }
+    .swiper-pagination {
+      position: relative;
+      width: 100%;
+      bottom: 0;
+      max-width: 6rem;
+    }
+  }
+  .slide-depositions {
+    overflow-x: hidden;
+  }
+  .card-deposition {
+    width: 100%;
+    max-width: 38.4rem;
+    height: 20.9rem;
+    border-radius: 0.8rem;
+    background-color: rgba(241, 240, 245, 0.53);
+    padding: 3.7rem 4rem 2.3rem 3.2rem;
+    .user {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 2.1rem;
+      span {
+        color: var(--GRAY-800);
+        font-size: 1.8rem;
+        font-weight: 600;
+        line-height: 112%;
+        letter-spacing: -1px;
+      }
+    }
+    p {
+      color: var(--GRAY-600);
+      font-size: 1.8rem;
+      line-height: 150%;
     }
   }
 }
