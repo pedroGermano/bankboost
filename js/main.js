@@ -20,3 +20,7 @@ var swiper = new Swiper(".slide-depositions", {
     }
   }
 });
+
+AOS.init({
+  duration: 1000
+});

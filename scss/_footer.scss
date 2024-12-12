@@ -32,6 +32,14 @@ footer {
         display: flex;
         align-items: center;
         gap: 3.2rem;
+        li {
+          a {
+            transition: opacity 0.1s ease-in;
+            &:hover {
+              opacity: 0.9;
+            }
+          }
+        }
       }
     }
   }
@@ -64,6 +72,10 @@ footer {
               color: var(--WHITE);
               font-size: 1.4rem;
               opacity: 0.67;
+              &:hover {
+                color: var(--WHITE);
+                opacity: 1;
+              }
             }
           }
         }

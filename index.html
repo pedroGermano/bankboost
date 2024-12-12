@@ -14,6 +14,8 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
     <link rel="stylesheet" href="css/main.css" />
   </head>
   <body>
@@ -39,7 +41,7 @@
     </header>
     <section class="s-hero">
       <div class="container">
-        <div class="left">
+        <div class="left" data-aos="fade-right">
           <h3>Abra sua conta, é só baixar o app!</h3>
           <h1>Desperte seu potencial financeiro com o Bankboost!</h1>
           <a href="#" class="btn">Abra sua conta digital</a>
@@ -58,7 +60,7 @@
             </li>
           </ul>
         </div>
-        <div class="right">
+        <div class="right" data-aos="fade-left">
           <h2>Banco 100% digital</h2>
           <div class="cards">
             <img class="item card-one" src="img/card-1.png" alt="card 01" />
@@ -69,7 +71,7 @@
     </section>
     <div class="s-boost">
       <div class="container">
-        <div class="left">
+        <div class="left" data-aos="fade-up">
           <div class="mockup">
             <img src="img/app.svg" alt="Mockup" />
           </div>
@@ -94,7 +96,7 @@
             </ul>
           </div>
         </div>
-        <div class="right">
+        <div class="right" data-aos="fade-left">
           <h2>Resolva sua vida direto pelo app boost!</h2>
           <ul class="list">
             <li>
@@ -155,7 +157,7 @@
       </div>
     </div>
     <section class="s-depositions">
-      <div class="container">
+      <div class="container" data-aos="fade-down">
         <div class="title">
           <h2>
             Prático, fácil, moderno
@@ -243,7 +245,7 @@
     </section>
     <section class="s-account">
       <div class="container">
-        <div class="left">
+        <div class="left" data-aos="fade-right">
           <h2>
             Aproveite
             <strong>Domine o seu dinheiro com uma conta 100% digital</strong>
@@ -274,14 +276,24 @@
           <a href="#" class="btn">Abra sua conta digital</a>
         </div>
         <div class="right">
-          <img class="mockup one" src="img/mockup1.png" alt="mock 1" />
-          <img class="mockup two" src="img/mockup2.png" alt="mock 2" />
+          <img
+            class="mockup one"
+            data-aos="fade-up"
+            src="img/mockup1.png"
+            alt="mock 1"
+          />
+          <img
+            class="mockup two"
+            data-aos="fade-down"
+            src="img/mockup2.png"
+            alt="mock 2"
+          />
         </div>
       </div>
     </section>
 
     <footer>
-      <div class="container">
+      <div class="container" data-aos="fade-up">
         <div class="area-social">
           <img src="img/logo.svg" alt="logo" />
           <div class="social-midia">
@@ -430,6 +442,7 @@
         </div>
       </div>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>
